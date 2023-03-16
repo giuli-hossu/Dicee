@@ -32,6 +32,29 @@ img {
   width: 80%;
 }
 
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #FAF1D8;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #4ecca2c0}
+
+button:active {
+  background-color: #4ecca294;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
